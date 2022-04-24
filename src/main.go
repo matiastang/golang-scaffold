@@ -2,8 +2,8 @@
  * @Author: matiastang
  * @Date: 2022-04-19 17:14:35
  * @LastEditors: matiastang
- * @LastEditTime: 2022-04-19 17:27:02
- * @FilePath: /golang-scaffold/main.go
+ * @LastEditTime: 2022-04-24 17:03:52
+ * @FilePath: /golang-scaffold/src/main.go
  * @Description:
  */
 package main
@@ -26,6 +26,6 @@ func main() {
 	// 初始化路由
 	r := routers.Init()
 	if err := r.Run(); err != nil {
-		//...
+		// TODO: - 服务启动失败
 	}
 }
