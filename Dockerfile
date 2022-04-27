@@ -1,6 +1,10 @@
+# 第一行必须指定基础容器，建议使用aipln类型的小容器
 FROM golang:alpine
+# 版本信息(可选)
 LABEL version="1.0.0"
-LABEL maintainer="matias"
+# 维护者信息(可选)
+LABEL maintainer="matias matiastang@163.com"
+# 描述信息(可选)
 LABEL description="项目描述"
 # docker中的工作目录
 WORKDIR $GOPATH/src/go_gin_docker
